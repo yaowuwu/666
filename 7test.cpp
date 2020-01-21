@@ -31,7 +31,10 @@ namespace Exception{
         //reset ObjectA value to a, ObjectB value to b
         //need exception safe and data unchanged if throwi
         void resetAAndB(int a, int b){
-
+            ObjA aa(a);
+            ObjB bb(b);
+            m_a.swap(aa);
+            m_b.swap(bb);
         }
     };
 }

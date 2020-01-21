@@ -8,7 +8,7 @@
 
 //algorithm
 #include <stdlib.h>
-#include <isotream>
+#include <iostream>
 #include <cstdio>
 #include <cstring>
 

@@ -26,22 +26,22 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /usr/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /usr/local/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/test/666/base64
+CMAKE_SOURCE_DIR = /root/666/base64
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/test/666/base64/build
+CMAKE_BINARY_DIR = /root/666/base64/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Base64.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/Base64.dir/flags.make
 
 CMakeFiles/Base64.dir/main.cpp.o: CMakeFiles/Base64.dir/flags.make
 CMakeFiles/Base64.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/test/666/base64/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/666/base64/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Base64.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Base64.dir/main.cpp.o -c /root/test/666/base64/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Base64.dir/main.cpp.o -c /root/666/base64/main.cpp
 
 CMakeFiles/Base64.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Base64.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/test/666/base64/main.cpp > CMakeFiles/Base64.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/666/base64/main.cpp > CMakeFiles/Base64.dir/main.cpp.i
 
 CMakeFiles/Base64.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Base64.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/test/666/base64/main.cpp -o CMakeFiles/Base64.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/666/base64/main.cpp -o CMakeFiles/Base64.dir/main.cpp.s
 
 CMakeFiles/Base64.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/Base64.dir/main.cpp.o.requires
@@ -100,6 +100,6 @@ CMakeFiles/Base64.dir/clean:
 .PHONY : CMakeFiles/Base64.dir/clean
 
 CMakeFiles/Base64.dir/depend:
-	cd /root/test/666/base64/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/test/666/base64 /root/test/666/base64 /root/test/666/base64/build /root/test/666/base64/build /root/test/666/base64/build/CMakeFiles/Base64.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/666/base64/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/666/base64 /root/666/base64 /root/666/base64/build /root/666/base64/build /root/666/base64/build/CMakeFiles/Base64.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Base64.dir/depend
 

@@ -38,22 +38,22 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /usr/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /usr/local/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/test/666/base64
+CMAKE_SOURCE_DIR = /root/666/base64
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/test/666/base64/build
+CMAKE_BINARY_DIR = /root/666/base64/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/Base64.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /root/test/666/base64/build
 CMakeFiles/Base64.dir/all:
 	$(MAKE) -f CMakeFiles/Base64.dir/build.make CMakeFiles/Base64.dir/depend
 	$(MAKE) -f CMakeFiles/Base64.dir/build.make CMakeFiles/Base64.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/test/666/base64/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/666/base64/build/CMakeFiles  1
 	@echo "Built target Base64"
 .PHONY : CMakeFiles/Base64.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/Base64.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Base64.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/test/666/base64/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/666/base64/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Base64.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/test/666/base64/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/666/base64/build/CMakeFiles 0
 .PHONY : CMakeFiles/Base64.dir/rule
 
 # Convenience name for target.

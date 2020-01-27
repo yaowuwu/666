@@ -1,4 +1,4 @@
-# Install script for directory: /root/test/666/base64
+# Install script for directory: /root/666/base64
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/root/test/666/base64/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/root/666/base64/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/root/test/666/base64/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/root/666/base64/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

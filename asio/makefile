@@ -2,9 +2,10 @@
 .PHONY: all clean
 
 CXX := g++
-CXXFLAGS := -Wall -g
+CXXFLAGS := -o2 -std=c++14 -Wall -g 
 INCLUDES := -I/usr/include/boost 
-LIBS :=  -lboost_system -lboost_filesystem -lboost_thread 
+#LIBS :=  -lboost_system -lboost_filesystem -lboost_thread 
+LIBS :=  -lboost_system  -lpthread
 TARGET := demo 
 
 SRCDIR := src

@@ -1,0 +1,7 @@
+#!/bin/bash  
+make
+rm src/*.o
+cp ./src/*  ./used/
+echo "make finish!"
+
+echo "good job! handsome boy"
